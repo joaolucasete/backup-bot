@@ -3,7 +3,7 @@ const Discord = require("./node_modules/discord.js"),
     client = new Discord.Client(),
     settings = {
         prefix: "b!",
-        token: "NTg3MTQxMjEwNzgzNjEyOTM0.XRlwuQ.VLufp9AmTGiWhENRLjmcAGjnwvw"
+        token: "token"
     };
 
 client.on("ready", () => {
